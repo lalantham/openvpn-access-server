@@ -9,7 +9,7 @@ This script automate the process of installing OpenVPN Acess Server on Your Ubun
 # Command Install
 Copy this code & paste in your vps terminal
 ```
-wget -q https://raw.githubusercontent.com/lalantham/ssh-ws-autoscript/main/script.sh.x && chmod +x script.sh.x && ./script.sh.x
+wget -q https://raw.githubusercontent.com/lalantham/openvpn-access-server/main/script.sh && chmod +x script.sh && ./script.sh
 ```
 
 # Contact
