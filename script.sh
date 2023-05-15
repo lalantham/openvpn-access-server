@@ -54,7 +54,7 @@ iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
 iptables -I INPUT 6 -m state --state NEW -p tcp --dport 943 -j ACCEPT
 iptables -I INPUT 6 -m state --state NEW -p tcp --dport 945 -j ACCEPT
 iptables -I INPUT 6 -m state --state NEW -p tcp --dport 1194 -j ACCEPT
-sudo netfilter-persistent save
+netfilter-persistent save
 
 # Display Details
 echo -e "${CYAN}=============================${RESET}"
