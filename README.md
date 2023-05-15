@@ -3,7 +3,7 @@
 ## About
 This script automate the process of installing OpenVPN Acess Server on Your Ubuntu VPS
 
-# Requirment
+# Requirement
 * Ubuntu 20.04 VPS
 
 # Command Install
