@@ -8,6 +8,18 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 RESET='\033[0m'
 
+echo -e "${CYAN}=============================${RESET}"
+echo -e "${RED}Running Privilege Check${RESET}"
+echo -e "${CYAN}=============================${RESET}"
+# Check if running as root
+if [ "$EUID" -ne 0 ]; then
+    echo -e "${RED}This script must be run as root.${RESET}"
+    exit 1
+fi
+
+# Continue with the rest of the script as root
+echo -e "${GREEN}Running as root. Performing privileged operations...${RESET}"
+
 # Update & Upgrade
 echo -e "${CYAN}=============================${RESET}"
 echo -e "${GREEN}Updating & Upgrading Server${RESET}"
