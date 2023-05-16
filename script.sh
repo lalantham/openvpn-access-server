@@ -9,6 +9,11 @@ CYAN='\033[0;36m'
 RESET='\033[0m'
 
 echo -e "${CYAN}=============================${RESET}"
+echo -e "${MAGENTA}Script By: LalanthaM${RESET}"
+echo -e "${MAGENTA}More Info: lalantha.com${RESET}"
+echo -e "${CYAN}=============================${RESET}"
+
+echo -e "${CYAN}=============================${RESET}"
 echo -e "${RED}Running Privilege Check${RESET}"
 echo -e "${CYAN}=============================${RESET}"
 # Check if running as root
